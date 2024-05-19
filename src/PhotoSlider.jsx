@@ -1,0 +1,50 @@
+export default function PhotoSlider(){
+   return(
+    <div id="carouselExampleCaptions" className="carousel slide">
+  <div className="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+  </div>
+  <div className="carousel-inner">
+    <div className="carousel-item active">
+      <img src="ship.jpg" className="d-block w-100 photo-bar-photo" alt="..."></img>
+      <div className=" d-md-block photo-bar-text">
+        <h5>Welcome to Dungeon Dive!</h5>
+        <p>Have you ever wanted to play Dungeons and Dragons? Join us for a drink, and roll some dice!</p>
+      </div>
+    </div>
+    <div className="carousel-item">
+      <img src="city.jpg" className="d-block w-100 photo-bar-photo" alt="..."></img>
+      <div className="d-block photo-bar-text">
+        <h5>Learn how to play!</h5>
+        <p>Join us on our character creation workshop table where you'll create your very first character!</p>
+      </div>
+    </div>
+    <div className="carousel-item">
+      <img src="tavern.jpg" className="d-block w-100 photo-bar-photo" alt="..."></img>
+      <div className="d-block photo-bar-text">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+    <div className="carousel-item">
+      <img src="ship.jpg" className="d-block w-100 photo-bar-photo" alt="..."></img>
+      <div className="d-block photo-bar-text">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span className="visually-hidden">Previous</span>
+  </button>
+  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+    <span className="visually-hidden">Next</span>
+  </button>
+</div>
+   )
+}
