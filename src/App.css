@@ -77,13 +77,14 @@ nav{
     padding: 0.5em;
 }
 
+
 .lang{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    float: right;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+   float: right;
    vertical-align: middle;
    border-radius: 10%;
    max-width: 2em;
@@ -121,6 +122,24 @@ nav{
     text-align: justify;
     padding: 1em;    
 
+}
+
+#dame-button{
+    background-color: rgb(209, 66, 40);
+    border-color: black;
+    border-width: 2px;
+    color: black;
+}
+
+#dame-button:hover{
+    background-color: black;
+    color:  rgb(209, 66, 40); 
+    border-color:  rgb(209, 66, 40);
+    box-shadow: inset;
+}
+
+#oneshot-details{
+    margin-top: 0.01em;
 }
 
 
