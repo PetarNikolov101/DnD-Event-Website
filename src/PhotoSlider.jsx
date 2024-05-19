@@ -9,14 +9,14 @@ export default function PhotoSlider(){
   </div>
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img src="ship.jpg" className="d-block w-100 photo-bar-photo" alt="..."></img>
+      <img src="old-ship-sea-sunset.jpg" className="d-block w-100 photo-bar-photo" alt="..."></img>
       <div className=" d-md-block photo-bar-text">
         <h5>Welcome to Dungeon Dive!</h5>
         <p>Have you ever wanted to play Dungeons and Dragons? Join us for a drink, and roll some dice!</p>
       </div>
     </div>
     <div className="carousel-item">
-      <img src="city.jpg" className="d-block w-100 photo-bar-photo" alt="..."></img>
+      <img src="view-futuristic-urban-city.jpg" className="d-block w-100 photo-bar-photo" alt="..."></img>
       <div className="d-block photo-bar-text">
         <h5>Learn how to play!</h5>
         <p>Join us on our character creation workshop table where you'll create your very first character!</p>
@@ -30,7 +30,7 @@ export default function PhotoSlider(){
       </div>
     </div>
     <div className="carousel-item">
-      <img src="ship.jpg" className="d-block w-100 photo-bar-photo" alt="..."></img>
+      <img src="gothic-castle.jpg" className="d-block w-100 photo-bar-photo" alt="..."></img>
       <div className="d-block photo-bar-text">
         <h5>Third slide label</h5>
         <p>Some representative placeholder content for the third slide.</p>
