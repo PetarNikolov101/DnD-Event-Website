@@ -11,15 +11,16 @@ export default function DameButton(){
         }else SetShowComponent(false)
     }
 
-    const img = "spooky-log-cabin-dark-forest.jpg";
+    const img = "circus.jpg";
     const text = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, rerum dolor unde nobis quae et debitis maxime odit vel molestiae in aperiam distinctio praesentium, sint delectus? Quos, sapiente? Culpa, alias.";
     const inverted = true;
+    const title = "Barrow of the Writhing Prince"
 
 
     return (
         <>
-            <button className="btn btn-primary" id="dame-button" onClick={ToggleComponent}>Barrow of the Writhing Prince</button><br/>
-            {ShowComponent && <OneshotDetails img={img} text={text} inverted = {inverted}></OneshotDetails>}
+            <button className="btn btn-primary" id="dame-button" onClick={ToggleComponent}>{title}</button><br/>
+            {ShowComponent && <OneshotDetails img={img} text={text} inverted = {inverted} title={title}></OneshotDetails>}
         </>
     )
 }
