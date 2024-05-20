@@ -2,6 +2,7 @@
     background-color: rgb(23, 22, 22);
     font-family: "Times New Roman", Times, serif;
 }
+
 #top_menu{
     display: flex;
     flex-direction: row;
@@ -12,10 +13,12 @@
     width: 100%;
     padding-top: 10px;
 }
+
 ul {
     margin-top: 0;
     margin-bottom: 0;
 }
+
 nav{
     background-color: rgb(23, 22, 22);
 }
@@ -73,10 +76,10 @@ nav{
 .photo-bar-photo{
     min-height: 170px;
 }
+
 .right_side_clickable{
     padding: 0.5em;
 }
-
 
 .lang{
    display: flex;
@@ -98,7 +101,6 @@ nav{
 #naslov{
     color: #e6dcdc;
 }
-
 
 .desc {
     display: flex;
