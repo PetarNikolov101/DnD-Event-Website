@@ -13,7 +13,7 @@ export default function PeroButton(){
     const img = "ship2.jpg";
     const text = "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum tenetur saepe quas libero et voluptas deleniti explicabo accusantium, illum, ab cupiditate numquam deserunt optio nobis dolorum impedit in. Vero, obcaecati.";
     const inverted = false;
-    const title = "The Depths Below Moonsicle Island";
+    const title = "The Depths Below Moonsickle Island";
 
     return(
         <>
