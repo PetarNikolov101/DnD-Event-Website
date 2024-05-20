@@ -16,7 +16,7 @@ export default function NikButton(){
 
     return(
         <>
-        <button className="btn btn-primary" id="nik-button" onClick={ToggleShowComponent}>{title}</button><br/>
+        <button className="btn" id="nik-button" onClick={ToggleShowComponent}>{title}</button><br/>
         {ShowComponent && <OneshotDetails img={img} text={text} inverted = {inverted} title={title}></OneshotDetails>}
         </>
     )

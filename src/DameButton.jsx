@@ -16,7 +16,7 @@ export default function DameButton(){
 
     return (
         <>
-            <button className="btn btn-primary" id="dame-button" onClick={ToggleComponent}>{title}</button><br/>
+            <button className="btn" id="dame-button" onClick={ToggleComponent}>{title}</button><br/>
             {ShowComponent && <OneshotDetails img={img} text={text} inverted = {inverted} title={title}></OneshotDetails>}
         </>
     )

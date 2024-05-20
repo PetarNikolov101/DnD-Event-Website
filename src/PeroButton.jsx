@@ -16,7 +16,7 @@ export default function PeroButton(){
 
     return(
         <>
-        <button onClick={ToggleShowComponent} className="btn btn-primary" id="pero-button">{title}</button>
+        <button onClick={ToggleShowComponent} className="btn" id="pero-button">{title}</button>
         {ShowComponent && <OneshotDetails img={img} text={text} inverted={inverted} title={title}/>}
         </>
     )
