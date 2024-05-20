@@ -1,5 +1,4 @@
 import { useState } from "react";
-import OneShotDetails from "./OneshotDetails";
 import OneshotDetails from "./OneshotDetails";
 
 export default function DameButton(){
