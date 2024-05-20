@@ -13,6 +13,7 @@ function App() {
     <TopMenu></TopMenu>
     <PhotoSlider></PhotoSlider>
     <Description></Description>
+    <h5 id='tables-header'>Click to read about each oneshot</h5>
     <DameButton></DameButton>
     <PeroButton></PeroButton>
     <NikButton></NikButton>

@@ -197,3 +197,11 @@ nav{
     border-color:  rgb(209, 66, 40);
     box-shadow: inset;
 }
+
+#tables-header{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    color:rgb(171, 159, 159);
+}
