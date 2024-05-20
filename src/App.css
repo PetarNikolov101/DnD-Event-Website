@@ -177,3 +177,21 @@ nav{
     }
 }
 
+#nik-button{
+    background-color: rgb(209, 66, 40);
+    border-color: black;
+    border-width: 2px;
+    color: black;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.01em;
+    margin-top: 1.2em;
+}
+
+#nik-button:hover{
+    background-color: black;
+    color:  rgb(209, 66, 40); 
+    border-color:  rgb(209, 66, 40);
+    box-shadow: inset;
+}
