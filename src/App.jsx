@@ -5,6 +5,7 @@ import Description from './Description'
 import DameButton from './DameButton'
 import PeroButton from './PeroButton'
 import NikButton from './NikButton'
+import Rules from './Rules'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
     <DameButton></DameButton>
     <PeroButton></PeroButton>
     <NikButton></NikButton>
+    <Rules></Rules>
     </>
   )
 }
