@@ -89,7 +89,6 @@ nav{
     color: white;
     text-align: justify;
     padding: 1em;    
-
 }
 
 #dame-button{
@@ -144,6 +143,22 @@ nav{
         color: rgb(152, 141, 141);
         font-size: medium;
         text-align: center;
+    }
+
+    #logo{
+        justify-content: center;
+        margin-left: 45%;
+        margin-right: auto;
+
+    }
+    #apply{
+        padding-right: 20px;
+    }
+    #logo_img{
+        justify-content: center;
+        margin-left: 25%;
+        margin-right: auto;
+
     }
 }
 

@@ -11,7 +11,9 @@ function App() {
   return (
     <>
     <TopMenu></TopMenu>
+    <hr></hr>
     <PhotoSlider></PhotoSlider>
+    <hr></hr>
     <Description></Description>
     <hr></hr>
     <h5 id='tables-header'>Click to read about each oneshot</h5>
