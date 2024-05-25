@@ -40,9 +40,7 @@ nav{
     color: black;
 }
 
-#logo_img{
-    max-width: 120px;
-}
+
 
 #application_button:hover{
     background-color: black;
@@ -218,3 +216,36 @@ nav{
     border-radius: 3%;
     max-width: 500px;
 }
+
+ul li{
+    text-align: justify;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background: linear-gradient(to right, #e6dedc, #feb47b); /* Gradient color */
+    margin: 20px 0;  
+}
+
+
+#logo_img:hover {
+    animation: spin 4s linear infinite;
+
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#logo_img{
+       max-width: 120px;
+       max-width: 120px;
+}
+
+

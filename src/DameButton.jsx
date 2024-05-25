@@ -10,7 +10,7 @@ export default function DameButton(){
     }
 
     const img = "guy.jpg";
-    const text = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio fugiat asperiores deserunt, officiis itaque voluptatibus iste voluptas perspiciatis quasi dolor reprehenderit a, nisi repellat voluptatem pariatur minus reiciendis corrupti sed. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, rerum dolor unde nobis quae et debitis maxime odit vel molestiae in aperiam distinctio praesentium, sint delectus? Quos, sapiente? Culpa, alias.";
+    const text = "The youngest prince of a troubled kingdom has been kidnapped and you've tracked his captors to a crypt at the edge of an abandoned village. However, instead of meeting resistance you meet the helpless cries of a wounded thief.";
     const inverted = true;
     const title = "Barrow of the Writhing Prince"
 
