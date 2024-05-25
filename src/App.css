@@ -5,32 +5,14 @@
 
 #top_menu{
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     list-style: none;
     justify-content: space-between;
-    align-items: flex-start; 
-    width: 100%;
     padding-top: 10px;
-}
-
-ul {
-    margin-top: 0;
-    margin-bottom: 0;
 }
 
 nav{
     background-color: rgb(23, 22, 22);
-}
-
-#insta_logo{
-    max-width: 32px;
-}
-#instagram{
-    width: 30px;
-}
-#instagram:hover{
-    cursor: pointer;
 }
 
 #application_button{
@@ -40,19 +22,11 @@ nav{
     color: black;
 }
 
-
-
 #application_button:hover{
     background-color: black;
     color:  rgb(209, 66, 40); 
     border-color:  rgb(209, 66, 40);
     box-shadow: inset;
-}
-
-#nav_block{
-    background-color: black;
-    position: absolute;
-    display: block;
 }
 
 .photo-bar-text{
@@ -73,10 +47,6 @@ nav{
 
 .photo-bar-photo{
     min-height: 170px;
-}
-
-.right_side_clickable{
-    padding: 0.5em;
 }
 
 .lang{
