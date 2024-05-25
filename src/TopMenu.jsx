@@ -13,8 +13,7 @@ export default function TopMenu(){
             <li id="apply">
                 <button className="lang">EN</button>
                 <button className="lang">MK</button>
-                <button id="application_button" className="btn btn-primary right_side_clickable">Apply Now!</button>
-                <a className="right_side_clickable" href="https://www.instagram.com/_petqr.n_/" target="_blank"><img id="insta_logo" alt="instagram" src="instagram.png"></img></a>            
+                <button id="application_button" className="btn btn-primary right_side_clickable">Apply Now!</button>            
             </li>
         </ul>
     </nav>

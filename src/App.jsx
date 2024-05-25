@@ -4,6 +4,7 @@ import PhotoSlider from './PhotoSlider'
 import Description from './Description'
 import Rules from './Rules'
 import Buttons from './Buttons'
+import Footer from './Footer'
 
 function App() {
 
@@ -17,6 +18,8 @@ function App() {
     <Buttons></Buttons>
     <hr></hr>
     <Rules></Rules>
+    <hr></hr>
+    <Footer></Footer>
     </>
   )
 }
