@@ -22,7 +22,7 @@ export default function Footer(){
             </div>
 
             <div className="text-center p-3" style={{ backgroundColor: 'rgb(23, 22, 22)', color: "white"}}>
-                © 2024 Copyright: Dungeon Dive
+                © 2024 Copyright: Zandana
             </div>
         </footer>
         </>

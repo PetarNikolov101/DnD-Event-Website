@@ -1,4 +1,13 @@
+import { changeLanguage } from 'i18next'
+import { useTranslation } from 'react-i18next'
+
 export default function TopMenu(){
+    const[t, i18n] = useTranslation("global")
+    var apply = t("top_menu.apply")
+
+    const handleChangeLanguage = (lang)=>{
+        i18n.changeLanguage(lang)
+    }
     return(
     <nav>
         <span id="nav_block"></span>
@@ -7,13 +16,12 @@ export default function TopMenu(){
             <li id="logo">
                 <span>
                 <img alt="logo" id='logo_img' src="logo.png"></img>
-                <h1 id="naslov">Dungeon Dive</h1>
                 </span>
             </li>
             <li id="apply">
-                <button className="lang">EN</button>
-                <button className="lang">MK</button>
-                <button id="application_button" className="btn btn-primary right_side_clickable">Apply Now!</button>            
+                <button className="lang" onClick={()=>handleChangeLanguage("en")}>EN</button>
+                <button className="lang" onClick={()=>handleChangeLanguage("mk")}>MK</button>
+                <button id="application_button" className="btn btn-primary right_side_clickable">{apply}</button>
             </li>
         </ul>
     </nav>

@@ -5,9 +5,11 @@ import Description from './Description'
 import Rules from './Rules'
 import Buttons from './Buttons'
 import Footer from './Footer'
+import { useTranslation } from 'react-i18next'
 
 function App() {
-
+  const[t, i18n] = useTranslation("global")
+  var clickToRead = t("click_for_story.click")
   return (
     <>
     <TopMenu></TopMenu>
@@ -16,7 +18,7 @@ function App() {
     <hr></hr>
     <Description></Description>
     <hr></hr>
-    <h5 id='tables-header'>Click to read about each oneshot</h5>
+    <h4 id='tables-header'>{clickToRead}</h4>
     <Buttons></Buttons>
     <hr></hr>
     <Rules></Rules>

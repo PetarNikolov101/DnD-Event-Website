@@ -1,11 +1,17 @@
+import { useTranslation } from "react-i18next"
+
 export default function Description(){
+    const[t, i18next] = useTranslation("global")
+    var desc = t("event_desc.desc")
     return(
         <div className="desc">
             <div className="desc-text">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus itaque, nulla fuga facere perspiciatis sunt maxime eos ducimus sit quas aspernatur tenetur vero aliquam odit exercitationem sint fugit aliquid sapiente.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse praesentium necessitatibus, aspernatur fugiat et sunt eum nobis. Ducimus molestias quas neque, nulla at quidem distinctio esse, modi, odit magnam repellat!</p>
+                <p>
+                    {desc}
+                </p>
             </div>
             <div className = "desc-img">
-                <img className="desc-img" src="spooky-log-cabin-dark-forest.jpg"></img>
+                <img className="desc-img" src="dice.jpg"></img>
             </div>
         </div>
     )

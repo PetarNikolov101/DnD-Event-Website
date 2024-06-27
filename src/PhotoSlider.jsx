@@ -1,5 +1,16 @@
+import {useTranslation } from "react-i18next"
 export default function PhotoSlider(){
-   return(
+  const [t, i18next] = useTranslation("global")
+  var header1 = t("header.title1")
+  var header2 = t("header.title2")
+  var header3 = t("header.title3")
+  var header4 = t("header.title4")
+
+  var message1 = t("body.message1")
+  var message2 = t("body.message2")
+  var message3 = t("body.message3")
+  var message4 = t("body.message4")
+  return(
     <div id="carouselExampleCaptions" className="carousel slide">
   <div className="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -11,29 +22,29 @@ export default function PhotoSlider(){
     <div className="carousel-item active">
       <img src="old-ship-sea-sunset.jpg" className="d-block w-100 photo-bar-photo" alt="..."></img>
       <div className=" d-md-block photo-bar-text">
-        <h5>Welcome to Dungeon Dive!</h5>
-        <p>Have you ever wanted to play Dungeons and Dragons? Join us for a drink, and roll some dice!</p>
+        <h5>{header1}</h5>
+        <p>{message1}</p>
       </div>
     </div>
     <div className="carousel-item">
       <img src="view-futuristic-urban-city.jpg" className="d-block w-100 photo-bar-photo" alt="..."></img>
       <div className="d-block photo-bar-text">
-        <h5>Learn how to play!</h5>
-        <p>Join us on our character creation workshop table where you'll create your very first character!</p>
+        <h5>{header2}</h5>
+        <p>{message2}</p>
       </div>
     </div>
     <div className="carousel-item">
       <img src="tavern.jpg" className="d-block w-100 photo-bar-photo" alt="..."></img>
       <div className="d-block photo-bar-text">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
+        <h5>{header3}</h5>
+        <p>{message3}</p>
       </div>
     </div>
     <div className="carousel-item">
       <img src="gothic-castle.jpg" className="d-block w-100 photo-bar-photo" alt="..."></img>
       <div className="d-block photo-bar-text">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
+        <h5>{header4}</h5>
+        <p>{message4}</p>
       </div>
     </div>
   </div>

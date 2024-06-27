@@ -1,18 +1,20 @@
 import { useState } from "react";
 import OneshotDetails from "./OneshotDetails";
+import { useTranslation } from "react-i18next";
 
 export default function NikButton(){
     const[ShowComponent, SetShowComponent] = useState(false)
+    const[t, i18next] = useTranslation("global")
     const ToggleShowComponent = () =>{
         if(!ShowComponent){
             SetShowComponent(true)
         }else SetShowComponent(false)
     }
 
-    const img = "weird-guys.jpg";
-    const text = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio fugiat asperiores deserunt, officiis itaque voluptatibus iste voluptas perspiciatis quasi dolor reprehenderit a, nisi repellat voluptatem pariatur minus reiciendis corrupti sed. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni commodi quia beatae autem culpa. Voluptatem eaque totam quod, culpa voluptate beatae blanditiis error obcaecati repellendus a, esse rem illo incidunt!";
+    const img = "nik_img.jpg";
+    const text = t("story_desc.desc3")
     const inverted = true;
-    const title = "Clownfest"
+    const title = t("story_titles.title3")
 
     return(
         <>

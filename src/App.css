@@ -1,6 +1,6 @@
 #root{
     background-color: rgb(23, 22, 22);
-    font-family: "Times New Roman", Times, serif;
+    font:normal normal Arial, Tahoma, Helvetica, FreeSans, sans-serif;
 }
 
 #top_menu{
@@ -16,16 +16,16 @@ nav{
 }
 
 #application_button{
-    background-color: rgb(209, 66, 40);
-    border-color: black;
+    background-color: rgb(228,	200, 167);
+    border-color: rgb(228, 200, 167);
     border-width: 2px;
     color: black;
 }
 
 #application_button:hover{
     background-color: black;
-    color:  rgb(209, 66, 40); 
-    border-color:  rgb(209, 66, 40);
+    color:  rgb(0, 125, 95); 
+    border-color: rgb(0, 125, 95);
     box-shadow: inset;
 }
 
@@ -67,7 +67,7 @@ nav{
 }
 
 #naslov{
-    color: #e6dcdc;
+    color: #ffffff;
 }
 
 .desc {
@@ -79,7 +79,8 @@ nav{
 }
 
 .desc-img {
-    max-width: 300px;
+    max-width: 400px;
+    max-height: 400px;
     display: flex;
     justify-content: center;
 }
@@ -89,11 +90,12 @@ nav{
     color: white;
     text-align: justify;
     padding: 1em;    
+    justify-content: center;
 }
 
 #dame-button{
-    background-color: rgb(209, 66, 40);
-    border-color: black;
+    background-color: rgb(228,	200, 167);;
+    border-color: rgb(228,	200, 167);;
     border-width: 2px;
     color: black;
     display: flex;
@@ -104,8 +106,8 @@ nav{
 
 #dame-button:hover{
     background-color: black;
-    color:  rgb(209, 66, 40); 
-    border-color:  rgb(209, 66, 40);
+    color:  rgb(0, 125, 95); 
+    border-color: rgb(0, 125, 95);
     box-shadow: inset;
 }
 
@@ -114,20 +116,20 @@ nav{
 }
 
 #pero-button{
-    background-color: rgb(209, 66, 40);
-    border-color: black;
+    background-color: rgb(228,	200	,167);
+    border-color: rgb(228,	200,	167);
     border-width: 2px;
     color: black;
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 0.01em;
+    margin-bottom: 0.4em;
 }
 
 #pero-button:hover{
     background-color: black;
-    color:  rgb(209, 66, 40); 
-    border-color:  rgb(209, 66, 40);
+    color:  rgb(0, 125, 95); 
+    border-color: rgb(0, 125, 95);
     box-shadow: inset;
 }
 
@@ -147,7 +149,7 @@ nav{
 
     #logo{
         justify-content: center;
-        margin-left: 45%;
+        margin-left: 42%;
         margin-right: auto;
 
     }
@@ -163,8 +165,8 @@ nav{
 }
 
 #nik-button{
-    background-color: rgb(209, 66, 40);
-    border-color: black;
+    background-color: rgb(228,	200,	167);;
+    border-color:rgb(228,	200,	167);
     border-width: 2px;
     color: black;
     display: flex;
@@ -176,17 +178,18 @@ nav{
 
 #nik-button:hover{
     background-color: black;
-    color:  rgb(209, 66, 40); 
-    border-color:  rgb(209, 66, 40);
+    color:  rgb(0, 125, 95); 
+    border-color: rgb(0, 125, 95);
     box-shadow: inset;
 }
 
 #tables-header{
     display: flex;
     justify-content: center;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
-    color:rgb(171, 159, 159);
+    color:rgb(255, 255, 255);
 }
 
 #rules{
@@ -202,7 +205,7 @@ ul li{
 hr {
     border: none;
     height: 2px;
-    background: linear-gradient(to right, #e6dedc, #feb47b); /* Gradient color */
+    background: linear-gradient(to right, #e6dedc, #1e5404); /* Gradient color */
     margin: 20px 0;  
 }
 

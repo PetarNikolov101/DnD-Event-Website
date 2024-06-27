@@ -1,18 +1,20 @@
 import { useState } from "react";
 import OneshotDetails from "./OneshotDetails";
+import { useTranslation } from "react-i18next";
 
 export default function PeroButton(){
     const[ShowComponent, SetShowComponent] = useState(false);
+    const[t, i18next] = useTranslation("global")
     const ToggleShowComponent = () =>{
         if(!ShowComponent){
             SetShowComponent(true)
         }else SetShowComponent(false)
     }
 
-    const img = "bull-girl.jpg";
-    const text = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio fugiat asperiores deserunt, officiis itaque voluptatibus iste voluptas perspiciatis quasi dolor reprehenderit a, nisi repellat voluptatem pariatur minus reiciendis corrupti sed. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum tenetur saepe quas libero et voluptas deleniti explicabo accusantium, illum, ab cupiditate numquam deserunt optio nobis dolorum impedit in. Vero, obcaecati.";
+    const img = "cool_ship.jpg";
+    const text = t("story_desc.desc2")
     const inverted = false;
-    const title = "The Depths Below Moonsickle Island";
+    const title = t("story_titles.title2");
 
     return(
         <>
