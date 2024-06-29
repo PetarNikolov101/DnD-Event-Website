@@ -21,7 +21,7 @@ export default function Footer(){
             </section>
             </div>
 
-            <div className="text-center p-3" style={{ backgroundColor: 'rgb(23, 22, 22)', color: "white"}}>
+            <div className="text-center p-3" style={{ backgroundColor: 'rgb(25, 24, 24)', color: "white"}}>
                 © 2024 Copyright: Zandana
             </div>
         </footer>

@@ -15,7 +15,7 @@ export default function TopMenu(){
             
             <li id="logo">
                 <span>
-                <img alt="logo" id='logo_img' src="logo.png"></img>
+                <img alt="logo" id='logo_img' src="zandana_bejzh.png"></img>
                 </span>
             </li>
             <li id="apply">
