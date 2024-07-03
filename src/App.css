@@ -140,6 +140,9 @@ nav{
     .title{
         display: none;
     }
+    #logo_img{
+        max-width: 220px;
+    }
 }
 
 @media (min-width: 800px){
@@ -161,7 +164,7 @@ nav{
     }
     #logo_img{
         justify-content: center;
-        /* margin-left: 15%; */
+        margin-left: 15%;
         margin-right: auto;
     }
 }
@@ -213,7 +216,11 @@ hr {
 
 #logo_img{
     padding-bottom: 0.5em;
-    max-width: 230px;
+    max-width: 220px;
+}
+
+#rules h4{
+    color:rgb(209, 98, 98)
 }
 
 

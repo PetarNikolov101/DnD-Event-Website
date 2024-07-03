@@ -11,7 +11,7 @@ export default function PhotoSlider(){
   var message3 = t("body.message3")
   var message4 = t("body.message4")
   return(
-    <div id="carouselExampleCaptions" className="carousel slide">
+    <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
   <div className="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -19,28 +19,28 @@ export default function PhotoSlider(){
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
   </div>
   <div className="carousel-inner">
-    <div className="carousel-item active">
+    <div className="carousel-item active" data-interval="5000">
       <img src="old-ship-sea-sunset.jpg" className="d-block w-100 photo-bar-photo" alt="..."></img>
       <div className=" d-md-block photo-bar-text">
         <h5>{header1}</h5>
         <p>{message1}</p>
       </div>
     </div>
-    <div className="carousel-item">
+    <div className="carousel-item" data-interval="5000">
       <img src="view-futuristic-urban-city.jpg" className="d-block w-100 photo-bar-photo" alt="..."></img>
       <div className="d-block photo-bar-text">
         <h5>{header2}</h5>
         <p>{message2}</p>
       </div>
     </div>
-    <div className="carousel-item">
+    <div className="carousel-item" data-interval="5000">
       <img src="tavern.jpg" className="d-block w-100 photo-bar-photo" alt="..."></img>
       <div className="d-block photo-bar-text">
         <h5>{header3}</h5>
         <p>{message3}</p>
       </div>
     </div>
-    <div className="carousel-item">
+    <div className="carousel-item" data-interval="5000">
       <img src="gothic-castle.jpg" className="d-block w-100 photo-bar-photo" alt="..."></img>
       <div className="d-block photo-bar-text">
         <h5>{header4}</h5>
