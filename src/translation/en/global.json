@@ -11,7 +11,7 @@
     "body":{
         "message1": "The first ever Macedonian D&D event, where you can experience your first D&D story.",
         "message2": "We'll help you create your very first character on our character creation workshop table!",
-        "message3": "Pick up a premade character and play in one of our three stories",
+        "message3": "Pick up a premade character and play in one of our three stories.",
         "message4": "Come spectate the stories and meet your future party members."
     },
     "event_desc":{
@@ -28,17 +28,17 @@
     },
     "story_desc":{
         "desc1":"Rumors spread of an ancient barrow hiding a hoard of silver, the key to this treasure is whispered to be royal blood. You get a tip that he youngest prince of a troubled kingdom has been kidnapped, and you've tracked his captors to a crypt at the edge of an abandoned village. However, instead of meeting resistance you meet the helpless cries of a wounded thief.",
-        "desc2":"Embark on an exhilarating journey across the Thallasian Sea. Your final destination: the enigmatic Moonsickle Island. Board the Wavetamer, join the crew in their quest to navigate the treacherous waters, ensuring a voyage filled with unforgettable adventures. Explore the magnificent ship, meet the diverse crew, and uncover the mysteries that lurk beneath the endless depths of the ocean. This is an adventure you’ll treasure forever. ",
+        "desc2":"Embark on an exhilarating journey across the Thallasian Sea. Your final destination: the enigmatic Moonsickle Island. Board the Wavetamer, join the crew in their quest to navigate the treacherous waters, ensuring a voyage filled with unforgettable adventures. Explore the magnificent ship, meet the diverse crew, and uncover the mysteries that lurk beneath the endless depths of the ocean.",
         "desc3":"A famous travelling carnival is facing a crisis, all of its clowns are behind bars. Outrage surrounds the funfair as people from the town report their valuables as missing, with their only lead being the mysterious sounds of laughter heard late in the night. This has sent the entire organization into a state of chaos, as they ask you to help prove the innocence of the clowns."
     },
 
     "rules":{
         "header": "Table rules",
-        "desc": "Hi! please follow the given guidelines when attending the event: ",
-        "rule1": "Bring a torch in the dungeon;",
-        "rule2":"Don't interrupt other players during their turn;",
-        "rule3":"Don't act inappropriately towards other players;",
-        "rule4": "If you're spectating, please don't make comments and interupt the active players;",
+        "desc": "Hi! Please follow the given guidelines while attending the event: ",
+        "rule1": "Bring a torch in the dungeon",
+        "rule2":"Don't interrupt other players during their turn",
+        "rule3":"Don't act inappropriately towards other players",
+        "rule4": "If you're spectating, please don't make comments and interupt the active players",
         "rule5":"Feel free to ask questions and lets all have fun!"
     }
 

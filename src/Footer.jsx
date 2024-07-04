@@ -6,9 +6,10 @@ export default function Footer(){
             <section className="mb-4">
                 <a data-mdb-ripple-init
                 className="btn btn-link btn-floating btn-lg text-body m-1"
-                href="#!"
+                href="https://www.instagram.com/zandana.mk/"
                 role="button"
                 data-mdb-ripple-color="dark"
+                target="_blank"
                 ><img src="instagram.png" style={{maxWidth: '30px'}}></img></a>
 
                 <a
@@ -17,7 +18,7 @@ export default function Footer(){
                 href="#!"
                 role="button"
                 data-mdb-ripple-color="dark"
-                ><img style={{maxWidth: '30px'}} src="facebook.png"></img></a>
+                ><img style={{maxWidth: '30px'}} src="linktree.png"></img></a>
             </section>
             </div>
 

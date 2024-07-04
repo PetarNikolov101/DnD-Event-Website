@@ -1,5 +1,4 @@
 #root{
-    /* rgb(23, 22, 22); */
     background-color: rgb(25, 24, 24);
     font-weight: medium;
     font-size: 16px;
@@ -84,6 +83,7 @@ nav{
 .desc-img {
     max-width: 400px;
     max-height: 400px;
+    min-width: 200px;
     display: flex;
     justify-content: center;
 }
@@ -221,6 +221,10 @@ hr {
 
 #rules h4{
     color:rgb(209, 98, 98)
+}
+
+.apliciraj{
+    color: rgb(228,200,167)
 }
 
 
