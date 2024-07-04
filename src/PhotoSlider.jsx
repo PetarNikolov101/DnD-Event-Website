@@ -20,28 +20,28 @@ export default function PhotoSlider(){
   </div>
   <div className="carousel-inner">
     <div className="carousel-item active" data-interval="6000">
-      <img src="old-ship-sea-sunset.jpg" className="d-block w-100 photo-bar-photo" alt="..."></img>
+      <img src="jpeg-optimizer_old-ship-sea-sunset.jpg" className="d-block w-100 photo-bar-photo" alt="..."></img>
       <div className=" d-md-block photo-bar-text">
         <h5>{header1}</h5>
         <p>{message1}</p>
       </div>
     </div>
     <div className="carousel-item" data-interval="6000">
-      <img src="view-futuristic-urban-city.jpg" className="d-block w-100 photo-bar-photo" alt="..."></img>
+      <img src="jpeg-optimizer_view-futuristic-urban-city.jpg" className="d-block w-100 photo-bar-photo" alt="..."></img>
       <div className="d-block photo-bar-text">
         <h5>{header2}</h5>
         <p>{message2}</p>
       </div>
     </div>
     <div className="carousel-item" data-interval="6000">
-      <img src="tavern.jpg" className="d-block w-100 photo-bar-photo" alt="..."></img>
+      <img src="jpeg-optimizer_tavern.jpg" className="d-block w-100 photo-bar-photo" alt="..."></img>
       <div className="d-block photo-bar-text">
         <h5>{header3}</h5>
         <p>{message3}</p>
       </div>
     </div>
     <div className="carousel-item" data-interval="6000">
-      <img src="gothic-castle.jpg" className="d-block w-100 photo-bar-photo" alt="..."></img>
+      <img src="jpeg-optimizer_gothic-castle.jpg" className="d-block w-100 photo-bar-photo" alt="..."></img>
       <div className="d-block photo-bar-text">
         <h5>{header4}</h5>
         <p>{message4}</p>
