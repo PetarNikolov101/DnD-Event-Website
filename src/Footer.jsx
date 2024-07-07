@@ -15,7 +15,7 @@ export default function Footer(){
                 <a
                  data-mdb-ripple-init
                 className="btn btn-link btn-floating btn-lg text-body m-1"
-                href="#!"
+                href="https://linktr.ee/zandana"
                 role="button"
                 data-mdb-ripple-color="dark"
                 ><img style={{maxWidth: '30px'}} src="linktree.png"></img></a>
