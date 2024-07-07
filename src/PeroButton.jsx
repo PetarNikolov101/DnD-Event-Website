@@ -9,7 +9,7 @@ export default function PeroButton({isActive, onClick}){
     const text = t("story_desc.desc2")
     const inverted = false;
     const title = t("story_titles.title2");
-    const link ="https://www.instagram.com/zandana.mk/"
+    const link ="https://docs.google.com/forms/d/1Zp-wTon1BrwQN4nOxG16DUqSL5eeuXUlezB1BKOKyo4/edit"
 
     return(
         <>

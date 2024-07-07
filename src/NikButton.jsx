@@ -9,7 +9,7 @@ export default function NikButton({isActive, onClick}){
     const text = t("story_desc.desc3")
     const inverted = true;
     const title = t("story_titles.title3")
-    const link = "https://www.instagram.com/zandana.mk/"
+    const link = "https://docs.google.com/forms/d/e/1FAIpQLSdL2HVlR7h-7NzEJLhlVs7jUmX4PN5GznADcAepSgfqqS1ntQ/viewform?usp=sf_link"
 
     return(
         <>
