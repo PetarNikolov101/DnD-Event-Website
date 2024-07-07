@@ -18,6 +18,7 @@ export default function Footer(){
                 href="https://linktr.ee/zandana"
                 role="button"
                 data-mdb-ripple-color="dark"
+                target="_blank"
                 ><img style={{maxWidth: '30px'}} src="linktree.png"></img></a>
             </section>
             </div>
